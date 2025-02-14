@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none
+}
+
+body {
+    background-color: black;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.header-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17.41px;
+    letter-spacing: -2%;
+    text-align: center;
+    color:rgba(127, 127, 144, 1);
+    font-family: Archivo;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+}
+
+.arrow-right:hover .header-content {
+    color: white; 
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); 
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.arrow-right:hover .arrow {
+    color: white; 
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); 
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.header-content:hover {
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    transform: translateY(-2px);
+    cursor: pointer;
+    transition:0.2s ;
+    -webkit-transition:0.2s ;
+    -moz-transition:0.2s ;
+    -ms-transition:0.2s ;
+    -o-transition:0.2s ;
+}
+
+
+
+.header-ul {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.arrow-right {
+    display: flex;
+    gap: 8px;
+}
+
+
+.action-btn {
+  
+    border-radius: 99px;
+    border-width: 1px;
+    padding-top: 15px;
+    padding-right: 24px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    cursor: pointer;
+  
+}
+
+.signin-btn { background-color: rgba(0, 0, 0, 1); box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset; font-family: Archivo; font-weight: 600; font-size: 16px; line-height: 17.41px; letter-spacing: -2%; text-align: center; color: rgba(255, 255, 255, 1); 
+}
+
+.signup-btn {
+
+ background-color: rgba(255, 255, 255, 1);
+ box-shadow: 0px 0px 35px 0px rgba(160, 151, 180, 0.5);
+ font-family: Archivo;
+font-weight: 600;
+font-size: 16px;
+line-height: 17.41px;
+letter-spacing: -2%;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+
+
+    
+}
+
+.signin-btn:hover {
+    border-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+    border-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.6); 
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
