@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/d092b78af0.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.js">
 </head>
 <body>
    
@@ -269,15 +270,59 @@
        
 
 
+<div class="logo-line-wrapper">
+    <div class="logo-line"></div>
+    <div>
+        <img src="images/Sygnet.png" alt="">
+    </div>
+    <div class="logo-line"></div>
 
+
+</div>
+
+
+
+<footer>
+    <div class="ft-txt-div">
+        <h6 class="ft-txt">Terms of Use</h6>
+        <h6 class="ft-txt">Privacy Policy</h6>
+        <h6 class="ft-txt">Contact</h6>
+        <h6 class="ft-txt">Blog</h6>
+
+
+    </div>
+    <div class="footer-btn-div">
+        <button class="action2-btn get-btn">Get the app</button>
+    </div>
+    <div class="ft-txt-div">
+        <h6 class="ft-txt">Pricign</h6>
+        <h6 class="ft-txt">Features</h6>
+        <h6 class="ft-txt">Integrations</h6>
+        <h6 class="ft-txt">Company</h6>
+
+    </div>
+
+
+</footer>
        
        
 
-    
-
+<div class="light-cursor" style="transform: translate(1496px, 172px);"></div>
 
         
+<script src="main.js">
 
+
+
+
+const cursor = document.querySelector('.light-cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.style.transform = `translate(${e.clientX - 8}px, ${e.clientY - 5}px)`;
+});
+
+
+</script>
  
 
        
